@@ -19,7 +19,7 @@ def PrintList(listToPrint):
 PrintList(numbersLists)
     
 def SelectionSort(listToSort):
-    for i in range(0,len(listToSort)):
+    for i in range(0,len(listToSort)-1):
         minimalIndex = i
         for j in range(i + 1,len(listToSort)):
             if listToSort[minimalIndex] > listToSort[j]:

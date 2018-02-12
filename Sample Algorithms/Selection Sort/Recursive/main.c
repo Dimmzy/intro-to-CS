@@ -24,7 +24,7 @@ void SelectionSort(int *array,int size,int startingLocation){
         return;
     }
     startingLocation++; // Increment the starting index by one
-    SelectionSort(array,size,startingLocation); // Call recursively with the next index
+    return SelectionSort(array,size,startingLocation); // Call recursively with the next index
 }
 
 void PrintArray(int *array,int size){

@@ -28,7 +28,7 @@ def SelectionSort(listToSort,startingIndex):
         return
     else:
         startingIndex += 1
-        SelectionSort(listToSort,startingIndex)
+        return SelectionSort(listToSort,startingIndex)
 
 SelectionSort(numbersLists,0)
 
