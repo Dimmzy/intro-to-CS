@@ -1,4 +1,6 @@
 // Bubble Sort Iterative Implementation 
+// Time complexity at worst case: O(n^2) - when reversed
+// Time complexity at best case: Omega(n) - when ordered completely
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -10,10 +12,10 @@ void Swap(int* one, int* two){ // Receives the pointers of the array in these po
 }
 
 void BubbleSort(int* array,int arraySize){
-    int swapped;
-    while(swapped != 0){
+    int swapped; // a flag that checks that we swapped something (to know if we need to continue the sorting)
+    while(swapped != 0){ // breaks when it didn't swap anything through the iteration
         swapped = 0;
-        for (int i = 0; i < arraySize - 1; i++)
+        for (int i = 0; i < arraySize - 1; i++) // Runs through the array swapping if needed
         {
             if (array[i] > array[i + 1])
             {
