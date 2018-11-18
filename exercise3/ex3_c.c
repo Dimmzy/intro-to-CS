@@ -1,10 +1,3 @@
-/**
-* Student Name: Dmitri Zinkevich
-* Student ID: 317301596
-* Course Exercise Group: 01
-* Exercise Name: ex3_c.c
-**/
-
 #define TRUE 1
 #define FALSE 0
 
