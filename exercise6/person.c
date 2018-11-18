@@ -1,10 +1,3 @@
-/********************************
-* Student Name: Dmitri Zinkevich
-* Student ID: 317301596
-* Course Exercise Group: 01
-* Exercise Name: Exercise 6
-********************************/
-
 
 #include <malloc.h>
 #include <string.h>
