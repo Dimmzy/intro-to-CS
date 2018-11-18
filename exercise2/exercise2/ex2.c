@@ -1,11 +1,4 @@
 
-/**
-* Student Name: Dmitri Zinkevich
-* Student ID: 317301596
-* Course Exercise Group: 01
-* Exercise Name: ex2.c
-**/
-
 #include <stdio.h>
 #define FLOAT_FIX 0.0005
 #define ASCII_MOVEMENT 32
