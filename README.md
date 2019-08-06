@@ -12,6 +12,8 @@ Basic number and array manipulation examples as a starting point to programming 
 Programs (both in C and Python) to test if a number is a prime using primality tests (up to the root of the number).<br />
 One of the main ideas was to demonstrate the performance difference between Python and C, where C is dominant in terms of raw computing speed, while python is easier to read/write (argubly).<br />
 <h3> Exercise 4 - Collatz Conjecture and Fermat's Last Therorem - C </h3>
+<p>
 Function to calculate the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) for given n.  
 And a function to calculate the pythagorean triples as given by [Fermat's Last Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem).  
 First major exercise that puts an emphasis on proper coding style and helper functions.
+</p>
